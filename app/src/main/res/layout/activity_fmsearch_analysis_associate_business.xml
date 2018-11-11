@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.fengmap.FMDemoNavigationAdvance.widget.SearchBar
+
+        android:id="@+id/search_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </com.fengmap.FMDemoNavigationAdvance.widget.SearchBar>
+
+    <!--显示路径的textview-->
+    <TextView
+        android:id="@+id/txt_pig_info"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/search_title_bar"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <com.fengmap.android.map.FMMapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_title_bar"/>
+
+    <!--左下圆形的那个-->
+    <com.fengmap.FMDemoNavigationAdvance.widget.ImageViewCheckBox
+        android:id="@+id/btn_pig_locate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape_bg_rect_white"
+        android:padding="9dp"
+        app:checked_bkg="@drawable/position_cilck"
+        app:default_state="2"
+        app:unchecked_bkg="@drawable/position"/>
+
+    <!--圆形上面的那个-->
+    <FrameLayout
+        android:id="@+id/layout_pig_group_control"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/btn_pig_locate"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="9dp"/>
+
+    <com.fengmap.FMDemoNavigationAdvance.widget.ImageViewCheckBox
+        android:id="@+id/btn_pig_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_bg_rect_white"
+        android:padding="6.5dp"
+        app:checked_bkg="@drawable/ic_three_view"
+        app:default_state="1"
+        app:unchecked_bkg="@drawable/ic_first_view"/>
+
+    <com.fengmap.FMDemoNavigationAdvance.widget.ImageViewCheckBox
+        android:id="@+id/btn_pig_3d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_pig_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_bg_rect_white"
+        android:padding="9dp"
+        app:checked_bkg="@drawable/ic_3d"
+        app:default_state="1"
+        app:unchecked_bkg="@drawable/ic_3d_click"/>
+
+
+    <include
+        layout="@layout/bottom_store_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

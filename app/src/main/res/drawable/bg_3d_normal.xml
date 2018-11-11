@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 内置图片 -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/shape_bg_rect_white"/>
+    </item>
+    <!-- 外观 -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_3d"/>
+    </item>
+</layer-list>

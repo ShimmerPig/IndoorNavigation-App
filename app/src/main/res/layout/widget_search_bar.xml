@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@color/driver_line"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <com.fengmap.FMDemoNavigationAdvance.widget.CompleteTextView
+        android:id="@+id/et_keyword"
+        android:layout_width="0.0dip"
+        android:layout_height="32.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/shape_bg_white"
+        android:drawableLeft="@drawable/map_search_hint_icon"
+        android:drawablePadding="5dp"
+        android:hint="输入名称"
+        android:imeOptions="actionSearch"
+        android:inputType="textNoSuggestions"
+        android:maxLength="25"
+        android:paddingLeft="12dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint"
+        android:textSize="13sp"/>
+
+</LinearLayout>

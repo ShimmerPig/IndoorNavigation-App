@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FMDemoNavigationAdvance</string>
+    <string name="demo_title_main">Fengmap Demo导航 V%1$s</string>
+
+    <string name="demo_title_constraint">导航路径约束</string>
+    <string name="demo_title_main_constraint">导航路径约束 - FMNavigationConstraint</string>
+    <string name="demo_title_recalc">路径偏移重新规划</string>
+    <string name="demo_title_main_recalc">路径偏移重新规划 - FMNavigationRecalc</string>
+    <string name="demo_title_first_person">第一人称导航</string>
+    <string name="demo_title_main_first_person">第一人称导航 - FMNavigationFirstPerson</string>
+    <string name="demo_title_third_person">第三人称导航</string>
+    <string name="demo_title_main_third_person">第三人称导航 - FMNavigationThirdPerson</string>
+    <string name="demo_title_application">导航实例</string>
+    <string name="demo_title_main_application">导航实例 - FMNavigationApplication</string>
+
+    <!--查詢part-->
+    <string name="demo_title_search">目標查詢</string>
+    <string name="demo_title_main_search">目標查詢 - MapSearchMain</string>
+    <string name="demo_title_base">地图信息查询</string>
+    <string name="demo_title_main_base">地图信息查询 - FMSearchAnalysisBaseInfo</string>
+    <string name="edit_hint_default">火锅</string>
+    <string name="demo_title_type">分类查询(业务类型)</string>
+    <string name="demo_title_main_type">分类查询(业务类型) - FMSearchAnalysisByType</string>
+    <string name="tab_type_food">餐饮</string>
+    <string name="tab_type_shopping">购物</string>
+    <string name="tab_type_facility">娱乐</string>
+    <string name="demo_title_facility">公共设施搜索</string>
+    <string name="demo_title_main_facility">公共设施搜索 - FMSearchAnalysisByFacility</string>
+    <string name="tab_type_elevator">直梯</string>
+    <string name="tab_type_escalator">扶梯</string>
+    <string name="tab_type_toilet">卫生间</string>
+    <string name="demo_title_input">搜索输入提示</string>
+    <string name="demo_title_main_input">搜索输入提示 - FMSearchAnalysisByInput</string>
+    <string name="demo_title_business">业务关联查询</string>
+    <string name="demo_title_main_business">业务关联查询 - FMSearchAnalysisAssociateBusiness</string>
+    <string name="demo_title_bound">周边查询</string>
+    <string name="demo_title_main_bound">周边查询 - FMSearchAnalysisBound</string>
+
+    <string name="btn_start_navigation">开始导航</string>
+    <string name="label_walk_format">距终点 %1$.2f米\t\t时间%2$d分钟\n路线提示：%3$s</string>
+
+</resources>

@@ -1,0 +1,4 @@
+#Sun Nov 11 16:49:56 CST 2018
+base.0=C\:\\Users\\lenovo\\Desktop\\miao\\FMDemoNavigationAdvance\\FMDemoNavigationAdvance\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex

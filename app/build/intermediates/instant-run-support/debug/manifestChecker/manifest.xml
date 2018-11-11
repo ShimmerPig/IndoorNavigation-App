@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fengmap.FMDemoNavigationAdvance"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="22" />
+
+    <!-- 写入扩展存储，向扩展卡写入数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取设备外部存储空间 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 访问网络，加载网络地图需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序访问有关GSM网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.fengmap.FMDemoNavigationAdvance.DemoApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- 这里输入秘钥 -->
+        <meta-data
+            android:name="com.fengmap.mapapi.appkey"
+            android:value="请输入您的KEY" />
+
+        <activity
+            android:name="com.fengmap.FMDemoNavigationAdvance.MapApiDemoMain"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fengmap.FMDemoNavigationAdvance.map.FMNavigationConstraint"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fengmap.FMDemoNavigationAdvance.map.FMNavigationRecalc"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fengmap.FMDemoNavigationAdvance.map.FMNavigationFirstPerson"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fengmap.FMDemoNavigationAdvance.map.FMNavigationThirdPerson"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fengmap.FMDemoNavigationAdvance.map.FMNavigationApplication"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.fengmap.FMDemoNavigationAdvance.MapSearchMain" />
+        <activity android:name="com.fengmap.FMDemoNavigationAdvance.map.BaseSearchActivity" />
+        <activity android:name="com.fengmap.FMDemoNavigationAdvance.map.FMSearchAnalysisAssociateBusiness" />
+
+        <service
+            android:name="com.fengmap.FMDemoNavigationAdvance.location.StepCountLocationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.fengmap.FMDemoNavigationAdvance.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

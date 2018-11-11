@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fengmap.FMDemoNavigationAdvance">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="22" />
+
+    <!-- 写入扩展存储，向扩展卡写入数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取设备外部存储空间 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 访问网络，加载网络地图需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序访问有关GSM网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".DemoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 这里输入秘钥 -->
+        <meta-data
+            android:name="com.fengmap.mapapi.appkey"
+            android:value="请输入您的KEY" />
+
+        <activity
+            android:name=".MapApiDemoMain"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".map.FMNavigationConstraint"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".map.FMNavigationRecalc"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".map.FMNavigationFirstPerson"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".map.FMNavigationThirdPerson"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".map.FMNavigationApplication"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MapSearchMain" />
+        <activity android:name=".map.BaseSearchActivity" />
+        <activity android:name=".map.FMSearchAnalysisAssociateBusiness" />
+
+        <service
+            android:name=".location.StepCountLocationService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>
