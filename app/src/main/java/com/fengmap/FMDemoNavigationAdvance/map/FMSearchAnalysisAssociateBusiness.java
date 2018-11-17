@@ -1,20 +1,27 @@
 package com.fengmap.FMDemoNavigationAdvance.map;
 
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fengmap.FMDemoNavigationAdvance.R;
 import com.fengmap.FMDemoNavigationAdvance.adapter.SearchStoreAdapter;
 import com.fengmap.FMDemoNavigationAdvance.bean.Store;
 import com.fengmap.FMDemoNavigationAdvance.utils.ConvertUtils;
 import com.fengmap.FMDemoNavigationAdvance.utils.FileUtils;
+import com.fengmap.FMDemoNavigationAdvance.utils.HttpUtil;
 import com.fengmap.FMDemoNavigationAdvance.utils.JSONUtils;
+import com.fengmap.FMDemoNavigationAdvance.utils.Utility;
 import com.fengmap.FMDemoNavigationAdvance.utils.ViewHelper;
 import com.fengmap.FMDemoNavigationAdvance.widget.ImageViewCheckBox;
 import com.fengmap.FMDemoNavigationAdvance.widget.KeyBoardUtils;
@@ -35,8 +42,16 @@ import com.google.gson.reflect.TypeToken;
 import com.iflytek.cloud.SpeechConstant;
 import com.iflytek.cloud.SpeechSynthesizer;
 
+import org.litepal.LitePal;
+import org.litepal.crud.LitePalSupport;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Response;
 
 public class FMSearchAnalysisAssociateBusiness extends BaseSearchActivity implements SearchBar.OnSearchResultCallback,
         AdapterView.OnItemClickListener,
@@ -90,7 +105,8 @@ public class FMSearchAnalysisAssociateBusiness extends BaseSearchActivity implem
     @Override
     public void onMapInitSuccess(String path) {
         super.onMapInitSuccess(path);
-        mStores = readStoresFromJson("data.json");
+        //TODO返回的是一个store的数组--mStores
+        readStoresFromJson();
 
         //检查楼层切换控件是否为null
         if (mSwitchFloorComponent == null) {
@@ -384,12 +400,78 @@ public class FMSearchAnalysisAssociateBusiness extends BaseSearchActivity implem
     /**
      * 获取商品信息
      *
-     * @param fileName 文件名称
+     *
      * @return
      */
-    private List<Store> readStoresFromJson(String fileName) {
-        String json = FileUtils.readStringFromAssets(getApplicationContext(), fileName);
-        return JSONUtils.fromJson(json, new TypeToken<List<Store>>() {
+    //TODO--第一次从服务器上读取
+    //TODO--以后从数据库中读取数据
+    private void readStoresFromJson() {
+//        String json = FileUtils.readStringFromAssets(getApplicationContext(), fileName);
+//        return JSONUtils.fromJson(json, new TypeToken<List<Store>>() {
+//        });
+        //优先从数据库中查询
+        mStores=LitePal.findAll(Store.class);
+//        if(mStores.size()>0){
+//            //return storeList;
+//        }
+        //查不到再去服务器上查询
+        if(mStores.size()<=0){
+            //查询的url
+            String address="http://www.shimmerpig.natapp1.cc/app/buyer/store/applist";
+            //传入的是查询的url以及要查询的数据类型
+            //将服务器上的数据save到数据库中，然后再从数据库中查询
+            queryFromServer(address,"store");
+        }
+        //return storeList;
+    }
+
+    //进度对话框
+    private ProgressDialog progressDialog;
+
+    //显示
+    private void showProgressDialog(){
+        if(progressDialog==null){
+            progressDialog=new ProgressDialog(this);
+            progressDialog.setMessage("PigPig正在从服务器上读取数据...");
+            progressDialog.setCanceledOnTouchOutside(false);
+        }
+        progressDialog.show();
+    }
+    Context context=this;
+    //关闭
+    private void closeProgressDialog(){
+        if(progressDialog!=null){
+            progressDialog.dismiss();
+        }
+    }
+
+    //将服务器上的数据save到数据库中，然后再从数据库中查询
+    private void queryFromServer(String address,final String type){
+        showProgressDialog();
+        HttpUtil.sendOkHttpRequest(address, new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        closeProgressDialog();
+                        Toast.makeText(context,"加载失败...",Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                String responseText=response.body().string();
+                boolean resault=false;
+                if("store".equals(type)){
+                    resault=Utility.handleStoreResponse(responseText);
+                }
+                if(resault){
+                    closeProgressDialog();
+                    mStores=LitePal.findAll(Store.class);
+                }
+            }
         });
     }
 

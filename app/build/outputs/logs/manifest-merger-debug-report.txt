@@ -11,6 +11,8 @@ MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\lenov
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4a59f9be0da0c4b64dfb760a794e5643\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:2:1-11:12
 MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:17:1-33:12
+MERGED from [org.litepal.android:java:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\java-3.0.0.aar\97af719c75c33c5d4c4bd69f6540f51f\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\67299fef633922e660c24a47c94e9c6c\AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e4edbd99f56be0c68723822987e0a88a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3a8950dc719dc3a86bc0f681f85f8650\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5d2ba514d623a4c3d5908c23a654e112\AndroidManifest.xml:17:1-22:12
@@ -19,6 +21,8 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\lenovo\.gra
 MERGED from [com.android.support:transition:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\57a3d0018b0c44beadf071df91c8b24a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\609ae61815760bfc89ed71b9eb70b546\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1e2af1375af32e548802f0e889d53a5b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\8c3f077d19d52879c24b3a217a9f10e3\AndroidManifest.xml:2:1-11:12
+MERGED from [org.litepal.android:core:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\d4018be434f092094947bc24207c83ce\AndroidManifest.xml:2:1-14:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c1d4cd1c95b70da8fee1f40a427bd6d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ec202f4212d01d4b9461d73c784f159\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b08f5ae23a0c23a19877d393dbb6adc7\AndroidManifest.xml:17:1-22:12
@@ -58,6 +62,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\le
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:5:5-7:41
 MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:20:5-22:41
 MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:20:5-22:41
+MERGED from [org.litepal.android:java:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\java-3.0.0.aar\97af719c75c33c5d4c4bd69f6540f51f\AndroidManifest.xml:7:5-9:41
+MERGED from [org.litepal.android:java:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\java-3.0.0.aar\97af719c75c33c5d4c4bd69f6540f51f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\67299fef633922e660c24a47c94e9c6c\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\67299fef633922e660c24a47c94e9c6c\AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e4edbd99f56be0c68723822987e0a88a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e4edbd99f56be0c68723822987e0a88a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3a8950dc719dc3a86bc0f681f85f8650\AndroidManifest.xml:20:5-44
@@ -74,6 +82,10 @@ MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\lenovo\.g
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\609ae61815760bfc89ed71b9eb70b546\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1e2af1375af32e548802f0e889d53a5b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1e2af1375af32e548802f0e889d53a5b\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\8c3f077d19d52879c24b3a217a9f10e3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\8c3f077d19d52879c24b3a217a9f10e3\AndroidManifest.xml:5:5-7:41
+MERGED from [org.litepal.android:core:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\d4018be434f092094947bc24207c83ce\AndroidManifest.xml:7:5-9:41
+MERGED from [org.litepal.android:core:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\d4018be434f092094947bc24207c83ce\AndroidManifest.xml:7:5-9:41
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c1d4cd1c95b70da8fee1f40a427bd6d\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c1d4cd1c95b70da8fee1f40a427bd6d\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ec202f4212d01d4b9461d73c784f159\AndroidManifest.xml:20:5-44
@@ -160,6 +172,14 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\le
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:9:5-20
 MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:24:5-31:19
 MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:24:5-31:19
+MERGED from [org.litepal.android:java:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\java-3.0.0.aar\97af719c75c33c5d4c4bd69f6540f51f\AndroidManifest.xml:11:5-12:19
+MERGED from [org.litepal.android:java:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\java-3.0.0.aar\97af719c75c33c5d4c4bd69f6540f51f\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\67299fef633922e660c24a47c94e9c6c\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\67299fef633922e660c24a47c94e9c6c\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\8c3f077d19d52879c24b3a217a9f10e3\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\8c3f077d19d52879c24b3a217a9f10e3\AndroidManifest.xml:9:5-20
+MERGED from [org.litepal.android:core:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\d4018be434f092094947bc24207c83ce\AndroidManifest.xml:11:5-12:19
+MERGED from [org.litepal.android:core:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\d4018be434f092094947bc24207c83ce\AndroidManifest.xml:11:5-12:19
 	android:supportsRtl
 		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:31:9-35
 	android:label
