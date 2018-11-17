@@ -1,18 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lenovo\\Desktop\\miao\\FMDemoNavigationAdvance\\FMDemoNavigationAdvance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\IndoorNavigation-App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\d55a37d8d308b1582d3284271e0e3efd\\res\\values-h720dp\\values-h720dp.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\895243d9a5b1bf3903b533afcb696871\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "294",
-                        "endColumns": "66",
-                        "endOffsets": "356"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

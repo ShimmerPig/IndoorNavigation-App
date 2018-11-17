@@ -1,1 +1,1 @@
-[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":2},"path":"app-debug.apk","properties":{"packageId":"com.fengmap.FMDemoNavigationAdvance","split":"","minSdkVersion":"9"}}]
+[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":220,"versionName":"2.2.0","enabled":true,"outputFile":"app-debug.apk","fullName":"debug","baseName":"debug"},"path":"app-debug.apk","properties":{}}]

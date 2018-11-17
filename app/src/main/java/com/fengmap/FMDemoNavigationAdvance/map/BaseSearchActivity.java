@@ -52,7 +52,8 @@ public abstract class BaseSearchActivity extends Activity implements OnFMMapInit
     // 默认起点
     protected FMGeoCoord mStartCoord = new FMGeoCoord(1,
             new FMMapCoord(12961647.576796599, 4861814.63807118));
-    // 默认终点
+           // new FMMapCoord(13232211.11111122, 2861814.63807118));
+            // 默认终点
     protected FMGeoCoord mEndCoord = new FMGeoCoord(6,
             new FMMapCoord(12961699.79823795, 4861826.46384646));
 

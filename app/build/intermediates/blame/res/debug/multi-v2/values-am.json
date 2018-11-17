@@ -1,23 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lenovo\\Desktop\\miao\\FMDemoNavigationAdvance\\FMDemoNavigationAdvance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\IndoorNavigation-App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\d55a37d8d308b1582d3284271e0e3efd\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1e2af1375af32e548802f0e889d53a5b\\res\\values-am\\values-am.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,393,492,598,684,787,900,1000,1100,1196,1299,1398,1505",
-                        "endColumns": "101,98,105,85,102,112,99,99,95,102,98,106,115",
-                        "endOffsets": "388,487,593,679,782,895,995,1095,1191,1294,1393,1500,1616"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,157,256,362,448,551,664,764,864,960,1063,1162,1269",
-                        "endColumns": "101,98,105,85,102,112,99,99,95,102,98,106,115",
-                        "endOffsets": "152,251,357,443,546,659,759,859,955,1058,1157,1264,1380"
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1882",
+                        "endColumns": "100",
+                        "endOffsets": "1978"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\895243d9a5b1bf3903b533afcb696871\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,207,306,412,498,601,714,792,870,949,1049,1149,1245,1348,1447,1554,1707,1803",
+                        "endColumns": "101,98,105,85,102,112,77,77,78,99,99,95,102,98,106,152,95,78",
+                        "endOffsets": "202,301,407,493,596,709,787,865,944,1044,1144,1240,1343,1442,1549,1702,1798,1877"
                     }
                 }
             ]

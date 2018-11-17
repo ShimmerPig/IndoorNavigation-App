@@ -1,170 +1,280 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\d55a37d8d308b1582d3284271e0e3efd\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\29fcad72c577448d91aa66770e14d23f\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\d28992266a63fdca8137885d559a873e\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ee8d2bc5f4ff7bb9c68bdd55d45e3832\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\895243d9a5b1bf3903b533afcb696871\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\54a1de56b2533f1e5898ee03e36ff4a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4a59f9be0da0c4b64dfb760a794e5643\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:2:1-11:12
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:17:1-33:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e4edbd99f56be0c68723822987e0a88a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3a8950dc719dc3a86bc0f681f85f8650\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5d2ba514d623a4c3d5908c23a654e112\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8a0b74578fdd489a942d53f42fe11eba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\714fc4f9a7872866ef7e97572c71b845\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\57a3d0018b0c44beadf071df91c8b24a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\609ae61815760bfc89ed71b9eb70b546\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1e2af1375af32e548802f0e889d53a5b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c1d4cd1c95b70da8fee1f40a427bd6d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ec202f4212d01d4b9461d73c784f159\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b08f5ae23a0c23a19877d393dbb6adc7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8f07008c8349bd8619e0fba298af9326\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:3:5-50
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:1-72:12
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\d55a37d8d308b1582d3284271e0e3efd\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\d55a37d8d308b1582d3284271e0e3efd\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\29fcad72c577448d91aa66770e14d23f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\29fcad72c577448d91aa66770e14d23f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\d28992266a63fdca8137885d559a873e\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\d28992266a63fdca8137885d559a873e\AndroidManifest.xml:20:5-43
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:5:5-7:41
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:5:5-47
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:5:5-47
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:5:5-47
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ee8d2bc5f4ff7bb9c68bdd55d45e3832\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ee8d2bc5f4ff7bb9c68bdd55d45e3832\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\895243d9a5b1bf3903b533afcb696871\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\895243d9a5b1bf3903b533afcb696871\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\54a1de56b2533f1e5898ee03e36ff4a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\54a1de56b2533f1e5898ee03e36ff4a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4a59f9be0da0c4b64dfb760a794e5643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4a59f9be0da0c4b64dfb760a794e5643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:5:5-7:41
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e4edbd99f56be0c68723822987e0a88a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e4edbd99f56be0c68723822987e0a88a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3a8950dc719dc3a86bc0f681f85f8650\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3a8950dc719dc3a86bc0f681f85f8650\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5d2ba514d623a4c3d5908c23a654e112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5d2ba514d623a4c3d5908c23a654e112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8a0b74578fdd489a942d53f42fe11eba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8a0b74578fdd489a942d53f42fe11eba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\714fc4f9a7872866ef7e97572c71b845\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\714fc4f9a7872866ef7e97572c71b845\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\57a3d0018b0c44beadf071df91c8b24a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\57a3d0018b0c44beadf071df91c8b24a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\609ae61815760bfc89ed71b9eb70b546\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\609ae61815760bfc89ed71b9eb70b546\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1e2af1375af32e548802f0e889d53a5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1e2af1375af32e548802f0e889d53a5b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c1d4cd1c95b70da8fee1f40a427bd6d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c1d4cd1c95b70da8fee1f40a427bd6d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ec202f4212d01d4b9461d73c784f159\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ec202f4212d01d4b9461d73c784f159\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b08f5ae23a0c23a19877d393dbb6adc7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b08f5ae23a0c23a19877d393dbb6adc7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8f07008c8349bd8619e0fba298af9326\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8f07008c8349bd8619e0fba298af9326\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:5:5-47
+INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:5:5-47
 	android:targetSdkVersion
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:7:9-38
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:5:15-44
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:6:9-34
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:5:5-47
+		INJECTED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:8:5-81
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:5-81
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:12:5-80
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:10:5-80
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:5-80
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:5-80
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:12:22-77
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:14:5-67
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:16:5-79
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:17:5-75
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:15:5-75
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:17:22-72
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:16:5-65
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:17:5-69
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-69
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:17:22-66
+uses-feature#android.hardware.camera
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:18:5-60
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-60
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:18:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:19:5-70
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-70
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:19:19-67
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:20:5-66
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:5-66
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:21:5-68
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-68
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:21:22-65
 application
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:19:5-70:19
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\d55a37d8d308b1582d3284271e0e3efd\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\d55a37d8d308b1582d3284271e0e3efd\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\29fcad72c577448d91aa66770e14d23f\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\29fcad72c577448d91aa66770e14d23f\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\d28992266a63fdca8137885d559a873e\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\d28992266a63fdca8137885d559a873e\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:26:5-77:19
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:5-28:19
+MERGED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8d58d047ce734550cde023629204d548\AndroidManifest.xml:9:5-20
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:24:5-31:19
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:24:5-31:19
 	android:supportsRtl
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:31:9-35
 	android:label
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:30:9-41
 	android:icon
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:22:9-45
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:29:9-45
 	android:allowBackup
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:28:9-35
 	android:theme
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:32:9-40
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:27:9-40
 meta-data#com.fengmap.mapapi.appkey
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:28:9-30:40
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:value
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:29:13-53
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:36:13-53
 activity#com.fengmap.FMDemoNavigationAdvance.MapApiDemoMain
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:32:9-41:20
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:39:9-48:20
 	android:screenOrientation
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:42:13-49
 	android:configChanges
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:34:13-63
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:41:13-63
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:33:13-43
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:36:13-40:29
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:40:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:46:27-74
 activity#com.fengmap.FMDemoNavigationAdvance.map.FMNavigationConstraint
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:42:9-45:52
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:49:9-52:52
 	android:screenOrientation
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:45:13-49
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:52:13-49
 	android:configChanges
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:44:13-63
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:51:13-63
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:43:13-55
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:50:13-55
 activity#com.fengmap.FMDemoNavigationAdvance.map.FMNavigationRecalc
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:46:9-49:52
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:53:9-56:52
 	android:screenOrientation
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:49:13-49
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:56:13-49
 	android:configChanges
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:48:13-63
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:55:13-63
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:47:13-51
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:54:13-51
 activity#com.fengmap.FMDemoNavigationAdvance.map.FMNavigationFirstPerson
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:50:9-53:52
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:57:9-60:52
 	android:screenOrientation
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:60:13-49
 	android:configChanges
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:52:13-63
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:59:13-63
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:51:13-56
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:58:13-56
 activity#com.fengmap.FMDemoNavigationAdvance.map.FMNavigationThirdPerson
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:54:9-57:52
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:61:9-64:52
 	android:screenOrientation
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:57:13-49
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:64:13-49
 	android:configChanges
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:56:13-63
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:63:13-63
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:62:13-56
 activity#com.fengmap.FMDemoNavigationAdvance.map.FMNavigationApplication
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:58:9-61:52
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:65:9-68:52
 	android:screenOrientation
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:61:13-49
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:68:13-49
 	android:configChanges
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:60:13-63
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:67:13-63
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:59:13-56
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:66:13-56
 activity#com.fengmap.FMDemoNavigationAdvance.MapSearchMain
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:62:9-51
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:69:9-51
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:62:19-48
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:69:19-48
 activity#com.fengmap.FMDemoNavigationAdvance.map.BaseSearchActivity
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:63:9-60
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:70:9-60
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:63:19-57
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:70:19-57
 activity#com.fengmap.FMDemoNavigationAdvance.map.FMSearchAnalysisAssociateBusiness
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:64:9-75
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:71:9-75
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:64:19-72
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:71:19-72
 service#com.fengmap.FMDemoNavigationAdvance.location.StepCountLocationService
-ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:66:9-69:47
+ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:73:9-76:47
 	android:enabled
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:68:13-35
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:75:13-35
 	android:exported
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:69:13-36
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:76:13-36
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\miao\FMDemoNavigationAdvance\FMDemoNavigationAdvance\app\src\main\AndroidManifest.xml:67:13-62
+		ADDED from C:\Users\lenovo\Desktop\IndoorNavigation-App-master\app\src\main\AndroidManifest.xml:74:13-62
+activity#com.yzq.zxinglibrary.android.CaptureActivity
+ADDED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:23:9-27:67
+	android:screenOrientation
+		ADDED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:13-49
+	android:windowSoftInputMode
+		ADDED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:13-64
+	android:configChanges
+		ADDED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:13-59
+	android:name
+		ADDED from [:zxinglibrary] C:\Users\lenovo\Desktop\IndoorNavigation-App-master\zxinglibrary\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:13-72
+activity#com.yanzhenjie.permission.PermissionActivity
+ADDED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:25:9-30:75
+	android:launchMode
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:28:13-42
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:30:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:29:13-65
+	android:name
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\permission-2.0.0-rc4.aar\73df02ca027ca7c233d19999e3500bca\AndroidManifest.xml:26:13-72

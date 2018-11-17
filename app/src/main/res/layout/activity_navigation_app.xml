@@ -68,4 +68,19 @@
         app:default_state="1"
         app:unchecked_bkg="@drawable/ic_3d_click"/>
 
+    <!--添加扫描二维码的图标-->
+    <com.fengmap.FMDemoNavigationAdvance.widget.ImageViewCheckBox
+        android:id="@+id/btn_sao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_3d"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_bg_rect_white"
+        android:padding="9dp"
+        app:checked_bkg="@drawable/sao"
+        app:default_state="1"
+        app:unchecked_bkg="@drawable/sao_click"/>
+
 </RelativeLayout>

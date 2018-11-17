@@ -5,9 +5,11 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,7 +35,14 @@ import com.fengmap.android.map.marker.FMLocationMarker;
 import com.fengmap.android.widget.FMSwitchFloorComponent;
 import com.iflytek.cloud.SpeechConstant;
 import com.iflytek.cloud.SpeechSynthesizer;
+import com.yanzhenjie.permission.Action;
+import com.yanzhenjie.permission.AndPermission;
+import com.yanzhenjie.permission.Permission;
+import com.yzq.zxinglibrary.android.CaptureActivity;
 
+import java.util.List;
+
+import com.yzq.zxinglibrary.common.Constant;
 /**
  * 导航实例
  * <p>模拟真实导航如何使用地图进行导航显示
@@ -45,6 +54,9 @@ public class FMNavigationApplication extends BaseActivity implements
         View.OnClickListener,
         ImageViewCheckBox.OnCheckStateChangedListener,
         OnFMNavigationListener {
+
+    private int REQUEST_CODE_SCAN = 111;
+
     // 约束过的定位标注
     private FMLocationMarker mHandledMarker;
 
@@ -115,6 +127,7 @@ public class FMNavigationApplication extends BaseActivity implements
         ViewHelper.setViewCheckedChangeListener(FMNavigationApplication.this, R.id.btn_3d, this);
         ViewHelper.setViewCheckedChangeListener(FMNavigationApplication.this, R.id.btn_locate, this);
         ViewHelper.setViewCheckedChangeListener(FMNavigationApplication.this, R.id.btn_view, this);
+        ViewHelper.setViewCheckedChangeListener(FMNavigationApplication.this,R.id.btn_sao,this);
 
         // 创建模拟导航对象
         //mNavigation = new FMSimulateNavigation(mFMMap);
@@ -294,11 +307,65 @@ public class FMNavigationApplication extends BaseActivity implements
                 }
             }
             break;
+            //点击下面的按钮，开始扫描二维码
+            case R.id.btn_sao:
+                Toast.makeText(FMNavigationApplication.this,"hh",Toast.LENGTH_SHORT).show();
+//                //调用扫描二维码的方法
+                AndPermission.with(this)
+                        .permission(Permission.CAMERA, Permission.READ_EXTERNAL_STORAGE)
+                        .onGranted(new Action() {
+                            @Override
+                            public void onAction(List<String> permissions) {
+                                Intent intent = new Intent(FMNavigationApplication.this, CaptureActivity.class);
+                                /*ZxingConfig是配置类
+                                 *可以设置是否显示底部布局，闪光灯，相册，
+                                 * 是否播放提示音  震动
+                                 * 设置扫描框颜色等
+                                 * 也可以不传这个参数
+                                 * */
+//                                ZxingConfig config = new ZxingConfig();
+//                                config.setPlayBeep(true);//是否播放扫描声音 默认为true
+//                                config.setShake(true);//是否震动  默认为true
+//                                config.setDecodeBarCode(true);//是否扫描条形码 默认为true
+//                                config.setReactColor(R.color.colorAccent);//设置扫描框四个角的颜色 默认为白色
+//                                config.setFrameLineColor(R.color.colorAccent);//设置扫描框边框颜色 默认无色
+//                                config.setScanLineColor(R.color.colorAccent);//设置扫描线的颜色 默认白色
+//                                config.setFullScreenScan(false);//是否全屏扫描  默认为true  设为false则只会在扫描框中扫描
+//                                intent.putExtra(Constant.INTENT_ZXING_CONFIG, config);
+                                startActivityForResult(intent, REQUEST_CODE_SCAN);
+                            }
+                        })
+                        .onDenied(new Action() {
+                            @Override
+                            public void onAction(List<String> permissions) {
+                                Uri packageURI = Uri.parse("package:" + getPackageName());
+                                Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, packageURI);
+                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                                startActivity(intent);
+
+                                Toast.makeText(FMNavigationApplication.this, "没有权限无法扫描呦", Toast.LENGTH_LONG).show();
+                            }
+                        }).start();
+
+                break;
             default:
                 break;
         }
     }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
+        // 扫描二维码/条码回传
+        if (requestCode == REQUEST_CODE_SCAN && resultCode == RESULT_OK) {
+            if (data != null) {
+                //content中为扫描二维码后得到的编号，这里可以设置为数据库中的store编号
+                String content = data.getStringExtra(Constant.CODED_CONTENT);
+                Toast.makeText(FMNavigationApplication.this,"扫描结果为："+content,Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
     /**
      * 楼层切换控件初始化
      */

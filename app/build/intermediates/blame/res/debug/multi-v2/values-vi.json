@@ -1,23 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lenovo\\Desktop\\miao\\FMDemoNavigationAdvance\\FMDemoNavigationAdvance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\IndoorNavigation-App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\d55a37d8d308b1582d3284271e0e3efd\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\895243d9a5b1bf3903b533afcb696871\\res\\values-vi\\values-vi.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,405,513,622,706,809,928,1032,1141,1242,1347,1461,1566",
-                        "endColumns": "113,107,108,83,102,118,103,108,100,104,113,104,119",
-                        "endOffsets": "400,508,617,701,804,923,1027,1136,1237,1342,1456,1561,1681"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,327,436,520,623,742,819,896,980,1084,1193,1294,1399,1513,1618,1775,1874",
+                        "endColumns": "113,107,108,83,102,118,76,76,83,103,108,100,104,113,104,156,98,83",
+                        "endOffsets": "214,322,431,515,618,737,814,891,975,1079,1188,1289,1394,1508,1613,1770,1869,1953"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1e2af1375af32e548802f0e889d53a5b\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,277,386,470,573,692,796,905,1006,1111,1225,1330",
-                        "endColumns": "113,107,108,83,102,118,103,108,100,104,113,104,119",
-                        "endOffsets": "164,272,381,465,568,687,791,900,1001,1106,1220,1325,1445"
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1958",
+                        "endColumns": "100",
+                        "endOffsets": "2054"
                     }
                 }
             ]

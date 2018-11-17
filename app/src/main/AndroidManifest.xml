@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fengmap.FMDemoNavigationAdvance">
 
-    <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="22" />
+    <uses-sdk android:targetSdkVersion="22" />
 
     <!-- 写入扩展存储，向扩展卡写入数据 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -15,6 +13,15 @@
     <!-- 允许程序访问有关GSM网络信息 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
         android:name=".DemoApplication"

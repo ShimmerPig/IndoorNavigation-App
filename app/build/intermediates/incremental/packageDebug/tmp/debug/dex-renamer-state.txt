@@ -1,0 +1,4 @@
+#Sat Nov 17 07:55:37 CST 2018
+base.0=C\:\\Users\\lenovo\\Desktop\\IndoorNavigation-App-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

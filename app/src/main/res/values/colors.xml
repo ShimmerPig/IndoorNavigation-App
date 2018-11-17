@@ -8,5 +8,8 @@
     <color name="red">#ffff0000</color>
     <color name="hint">#999999</color>
     <color name="selector">#EEEEEE</color>
-
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--<color name="white">#ffffff</color>-->
 </resources>

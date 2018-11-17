@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\IndoorNavigation-App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\permission-2.0.0-rc4.aar\\73df02ca027ca7c233d19999e3500bca\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,165,222,280,339,392,450,501",
+                        "endColumns": "55,53,56,57,58,52,57,50,56",
+                        "endOffsets": "106,160,217,275,334,387,445,496,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

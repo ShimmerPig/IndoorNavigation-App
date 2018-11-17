@@ -1,23 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lenovo\\Desktop\\miao\\FMDemoNavigationAdvance\\FMDemoNavigationAdvance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
+            "outputFile": "C:\\Users\\lenovo\\Desktop\\IndoorNavigation-App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\d55a37d8d308b1582d3284271e0e3efd\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\895243d9a5b1bf3903b533afcb696871\\res\\values-uk\\values-uk.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,401,503,609,695,803,921,1027,1134,1232,1340,1446,1555",
-                        "endColumns": "109,101,105,85,107,117,105,106,97,107,105,108,123",
-                        "endOffsets": "396,498,604,690,798,916,1022,1129,1227,1335,1441,1550,1674"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,317,423,509,617,735,814,894,975,1081,1188,1286,1394,1500,1609,1779,1879",
+                        "endColumns": "109,101,105,85,107,117,78,79,80,105,106,97,107,105,108,169,99,80",
+                        "endOffsets": "210,312,418,504,612,730,809,889,970,1076,1183,1281,1389,1495,1604,1774,1874,1955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1e2af1375af32e548802f0e889d53a5b\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,267,373,459,567,685,791,898,996,1104,1210,1319",
-                        "endColumns": "109,101,105,85,107,117,105,106,97,107,105,108,123",
-                        "endOffsets": "160,262,368,454,562,680,786,893,991,1099,1205,1314,1438"
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1960",
+                        "endColumns": "100",
+                        "endOffsets": "2056"
                     }
                 }
             ]
